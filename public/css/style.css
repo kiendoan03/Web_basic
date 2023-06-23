@@ -1,0 +1,11 @@
+.card:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: black, black;
+    z-index: 1;
+}
+
+.card:hover a {
+    color: var(primary color);
+    font-weight: bold;
+    z-index: 1;
+}
